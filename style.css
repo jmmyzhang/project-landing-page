@@ -10,7 +10,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0px;
+    margin: 0px 40px;
     padding: 0px;
     gap: 20px;
 }
@@ -32,6 +32,8 @@ ul {
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    padding: 0px;
+    margin: 0px 40px;
 }
 
 a {
@@ -43,7 +45,7 @@ a {
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
 }
@@ -62,6 +64,7 @@ a {
     max-width: 500px;
     justify-content: center;
     align-items: center;
+    margin: 0px 40px;
 }
 
 .main p {
@@ -76,10 +79,21 @@ h1 {
     margin: 0px;
 }
 
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 6px;
+    padding: 6px 24px;
+}
+
 .man {
     width: 300px;
     height: auto;
     border-radius: 10px;
+    margin: 0px 40px;
 }
 
 .about {
